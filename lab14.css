@@ -13,10 +13,29 @@
     align-items: center;
     row-gap: 30px;
 }
+input{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 5px;
+}
+button{
+    color: white;
+    background-color: rgb(115, 198, 250);
+    border-radius: 5px;
+    border: 0;
+    margin-left: 5px;
+}
 #username{
+    color: black;
     margin-top: 50px;
     font-size: 26px;
     font-weight: bold;
+}
+#username:hover{
+    color: rgb(115, 198, 250);
+    text-decoration: underline;
+    color: rgb(115, 198, 250);
 }
 .avatar{
     background-image: url();
@@ -44,15 +63,20 @@ table{
 }
 th{
     background-color: whitesmoke;
-    border:1px solid black;
+    border: whitesmoke;
     height: 50px;
     width: 600px;
 }
 td{
-    border:1px solid black;
     height: 50px;
     width: 600px;
+    text-align: center;
+    color: rgb(140, 140, 140);
 }
 button{
     width: 50px;
+}
+button:hover{
+    width: 55px;
+    height:25px;
 }
